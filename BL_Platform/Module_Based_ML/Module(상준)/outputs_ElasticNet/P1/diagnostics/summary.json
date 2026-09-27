@@ -1,0 +1,25 @@
+{
+  "period": "2000~2018",
+  "view": "Top5_minus_Bottom5",
+  "n_eval_months": 24,
+  "constraints": {
+    "use_max_weight": true,
+    "max_weight": 0.2
+  },
+  "eval": {
+    "months": 24,
+    "r2_oos_universe": 0.011765783019344167,
+    "mean_ic_20": -0.028759398496240596,
+    "view_hit_rate": 0.4166666666666667,
+    "mean_Q": 0.0007975044844439533,
+    "mean_Q_real": -0.0033709408827518723
+  },
+  "history": {
+    "months": 72,
+    "r2_oos_universe": 0.006606301750505694,
+    "mean_ic_20": 0.0054385964912280725,
+    "view_hit_rate": 0.4861111111111111,
+    "mean_Q": 0.004890569807106058,
+    "mean_Q_real": 0.0009119089472220845
+  }
+}
